@@ -24908,6 +24908,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2883487871341141184, guid: 89bf1b8286931df4fa27591dc06d3e9d, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3316486870146874428, guid: 89bf1b8286931df4fa27591dc06d3e9d, type: 3}
       propertyPath: m_Name
       value: Ruby
