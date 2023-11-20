@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9167561050378183231}
   - component: {fileID: 2883487871341141184}
   - component: {fileID: 9167829339949542624}
+  - component: {fileID: 1853135166586674836}
   m_Layer: 0
   m_Name: Ruby
   m_TagString: Player
@@ -101,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
+  timeInvincible: 2
 --- !u!50 &2883487871341141184
 Rigidbody2D:
   serializedVersion: 4
@@ -173,3 +175,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48537564, y: 0.37637615}
   m_EdgeRadius: 0
+--- !u!95 &1853135166586674836
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316486870146874428}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
